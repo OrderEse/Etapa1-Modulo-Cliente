@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\modulocliente\\modulocliente.da\\acciones\\gestionarsolicitudda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|solutionrelative:modulocliente.da\\acciones\\gestionarsolicitudda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\modulocliente\\modulocliente.bc\\constantes\\tiposolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|solutionrelative:modulocliente.bc\\constantes\\tiposolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\modulocliente\\modulocliente.da\\entidades\\solicitudda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|solutionrelative:modulocliente.da\\entidades\\solicitudda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\modulocliente\\modulocliente.bc\\modelos\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|solutionrelative:modulocliente.bc\\modelos\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\modulocliente\\modulocliente.bc\\constantes\\estadomesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|solutionrelative:modulocliente.bc\\constantes\\estadomesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SolicitudDA.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.DA\\Entidades\\SolicitudDA.cs",
+              "RelativeDocumentMoniker": "ModuloCliente.DA\\Entidades\\SolicitudDA.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.DA\\Entidades\\SolicitudDA.cs",
+              "RelativeToolTip": "ModuloCliente.DA\\Entidades\\SolicitudDA.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:44:39.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TipoSolicitud.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.BC\\Constantes\\TipoSolicitud.cs",
+              "RelativeDocumentMoniker": "ModuloCliente.BC\\Constantes\\TipoSolicitud.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.BC\\Constantes\\TipoSolicitud.cs",
+              "RelativeToolTip": "ModuloCliente.BC\\Constantes\\TipoSolicitud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:43:24.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestionarSolicitudDA.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.DA\\Acciones\\GestionarSolicitudDA.cs",
+              "RelativeDocumentMoniker": "ModuloCliente.DA\\Acciones\\GestionarSolicitudDA.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.DA\\Acciones\\GestionarSolicitudDA.cs",
+              "RelativeToolTip": "ModuloCliente.DA\\Acciones\\GestionarSolicitudDA.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:21:49.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstadoMesa.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.BC\\Constantes\\EstadoMesa.cs",
+              "RelativeDocumentMoniker": "ModuloCliente.BC\\Constantes\\EstadoMesa.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.BC\\Constantes\\EstadoMesa.cs",
+              "RelativeToolTip": "ModuloCliente.BC\\Constantes\\EstadoMesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:19:52.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Solicitud.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.BC\\Modelos\\Solicitud.cs",
+              "RelativeDocumentMoniker": "ModuloCliente.BC\\Modelos\\Solicitud.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\ModuloCliente\\ModuloCliente.BC\\Modelos\\Solicitud.cs",
+              "RelativeToolTip": "ModuloCliente.BC\\Modelos\\Solicitud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:46:51.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
