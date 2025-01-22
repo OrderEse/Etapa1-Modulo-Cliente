@@ -1,0 +1,6 @@
+@ModuloCliente_HostAddress = http://localhost:5047
+
+GET {{ModuloCliente_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
