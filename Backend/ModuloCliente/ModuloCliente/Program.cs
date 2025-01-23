@@ -1,7 +1,9 @@
+using Microsoft.EntityFrameworkCore;
 using ModuloCliente.BW.CU;
 using ModuloCliente.BW.Interfaces.BW;
 using ModuloCliente.BW.Interfaces.DA;
 using ModuloCliente.DA.Acciones;
+using ModuloCliente.DA.Contexto;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IGestionarSolicitudBW, GestionarSolicitudBW>();
 builder.Services.AddTransient<IGestionarSolicitudDA, GestionarSolicitudDA>();
+
+builder.Services.AddDbContext<ModuloClienteContexto>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSqlServer")));
 
 
 var app = builder.Build();

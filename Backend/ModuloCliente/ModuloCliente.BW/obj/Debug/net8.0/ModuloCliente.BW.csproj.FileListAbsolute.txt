@@ -1,0 +1,16 @@
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\bin\Debug\net8.0\ModuloCliente.BW.deps.json
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\bin\Debug\net8.0\ModuloCliente.BW.dll
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\bin\Debug\net8.0\ModuloCliente.BW.pdb
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\bin\Debug\net8.0\ModuloCliente.BC.dll
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\bin\Debug\net8.0\ModuloCliente.BC.pdb
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCliente.BW.csproj.AssemblyReference.cache
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCliente.BW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCliente.BW.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCliente.BW.AssemblyInfo.cs
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCliente.BW.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCliente.BW.sourcelink.json
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCl.59F9332D.Up2Date
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCliente.BW.dll
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\refint\ModuloCliente.BW.dll
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ModuloCliente.BW.pdb
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BW\obj\Debug\net8.0\ref\ModuloCliente.BW.dll

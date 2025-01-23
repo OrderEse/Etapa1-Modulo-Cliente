@@ -11,8 +11,6 @@ namespace ModuloCliente.BC.Modelos
     {
         public int Id { get; set; }
 
-        public int ClienteId { get; set; }
-
         public string Pedido { get; set; }
 
         public int MesaId { get; set; }

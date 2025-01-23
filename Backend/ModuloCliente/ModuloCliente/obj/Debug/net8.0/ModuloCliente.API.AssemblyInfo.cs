@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModuloCliente.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19e43ceed23da7044cf8bb0ef9b1f1c391b7f7a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddb8163bc3bfc08a26201ace1b5d64adf258db5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModuloCliente.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModuloCliente.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

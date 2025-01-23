@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ModuloCliente.BW/1.0.0": {
+        "dependencies": {
+          "ModuloCliente.BC": "1.0.0"
+        },
+        "runtime": {
+          "ModuloCliente.BW.dll": {}
+        }
+      },
+      "ModuloCliente.BC/1.0.0": {
+        "runtime": {
+          "ModuloCliente.BC.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModuloCliente.BW/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ModuloCliente.BC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -10,3 +10,17 @@ C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\ModuloCliente\ModuloCliente.BC\obj\
 C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\refint\ModuloCliente.BC.dll
 C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.pdb
 C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ref\ModuloCliente.BC.dll
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\bin\Debug\net8.0\ModuloCliente.BC.deps.json
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\bin\Debug\net8.0\ModuloCliente.BC.dll
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\bin\Debug\net8.0\ModuloCliente.BC.pdb
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.MensajesValidaciones.Mensajes.resources
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.csproj.GenerateResource.cache
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.AssemblyInfo.cs
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.sourcelink.json
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.dll
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\refint\ModuloCliente.BC.dll
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ModuloCliente.BC.pdb
+C:\Users\danie\Desktop\Etapa1-Modulo-Cliente\Backend\ModuloCliente\ModuloCliente.BC\obj\Debug\net8.0\ref\ModuloCliente.BC.dll

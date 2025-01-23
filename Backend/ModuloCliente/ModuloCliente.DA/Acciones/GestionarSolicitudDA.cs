@@ -9,6 +9,7 @@ using ModuloCliente.BC.Excepciones;
 using ModuloCliente.BC.Modelos;
 using ModuloCliente.BW.Interfaces.DA;
 using ModuloCliente.DA.Contexto;
+using ModuloCliente.DA.Entidades;
 
 namespace ModuloCliente.DA.Acciones
 {
@@ -24,7 +25,7 @@ namespace ModuloCliente.DA.Acciones
 
         public async Task<bool> CancelarSolicitud(int idSolicitud)
         {
-            var solicitudDA = await this.moduloClienteContexto.SolicitudDA.FindAsync(idSolicitud);
+            SolicitudDA solicitudDA = await this.moduloClienteContexto.SolicitudDA.FindAsync(idSolicitud);
 
             if (solicitudDA == null)
                 throw new ErrorCampoExcepcion("Solicitud no encontrada");
@@ -33,18 +34,35 @@ namespace ModuloCliente.DA.Acciones
             {
                 solicitudDA.Tipo = TipoSolicitud.CANCELAR_ATENCION;
 
-               var result = await this.moduloClienteContexto.SaveChangesAsync();
+               var resultado = await this.moduloClienteContexto.SaveChangesAsync();
 
-                if(result > 0)
+                if(resultado > 0)
                     return true;
             }
 
             return false;
         }
 
-        public Task<bool> RealizarSolicitud(Solicitud solicitud)
+        public async Task<bool> RealizarSolicitud(Solicitud solicitud)
         {
-            throw new NotImplementedException();
+            MesaDA mesaDA = await this.moduloClienteContexto.MesaDA.FindAsync(solicitud.MesaId);
+
+            if (mesaDA == null)
+                throw new ErrorCampoExcepcion("Mesa no encontrada");
+
+            SolicitudDA solicitudDA = new()
+            {
+                Pedido = solicitud.Pedido,
+                MesaId = mesaDA.Id,
+                Tipo = solicitud.Tipo
+            };
+
+            await this.moduloClienteContexto.SolicitudDA.AddAsync(solicitudDA);
+
+            var resultado = await this.moduloClienteContexto.SaveChangesAsync();
+
+            return resultado > 0 ;
+
         }
     }
 }
