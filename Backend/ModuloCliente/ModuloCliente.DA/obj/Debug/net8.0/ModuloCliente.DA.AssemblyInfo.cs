@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModuloCliente.DA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddb8163bc3bfc08a26201ace1b5d64adf258db5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2d513e44bd7988148bda70c0f294d1591d4acc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModuloCliente.DA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModuloCliente.DA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "ModuloCliente.API.Controladores.SolicitudController",
+    "Method": "RealizarSolicitud",
+    "RelativePath": "Solicitud",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "solicitudRegistroDTO",
+        "Type": "ModuloCliente.API.DTOs.Solicitud.SolicitudRegistroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloCliente.API.Controladores.SolicitudController",
+    "Method": "CancelarSolicitud",
+    "RelativePath": "Solicitud/{idSolicitud}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSolicitud",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

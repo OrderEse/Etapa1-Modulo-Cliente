@@ -18,7 +18,9 @@ builder.Services.AddTransient<IGestionarSolicitudBW, GestionarSolicitudBW>();
 builder.Services.AddTransient<IGestionarSolicitudDA, GestionarSolicitudDA>();
 
 builder.Services.AddDbContext<ModuloClienteContexto>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSqlServer")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSqlServer"))
+           .LogTo(Console.WriteLine, LogLevel.Debug));
+
 
 
 var app = builder.Build();

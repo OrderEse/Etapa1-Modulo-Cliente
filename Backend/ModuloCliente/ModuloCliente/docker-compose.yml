@@ -2,15 +2,21 @@ version: '3.9'
 
 services:
   sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
+    image: mcr.microsoft.com/mssql/server
     container_name: sqlserver_container
     ports:
-      - "1433:1433"
+      - "1434:1433"
     environment:
       - ACCEPT_EULA=Y 
-      - SA_PASSWORD=ContraSegura12345*
+      - MSSQL_SA_PASSWORD=ContraSegura12345*
     volumes:
       - sql_data:/var/opt/mssql
+    networks:
+      - sql_network
 
 volumes:
   sql_data:
+
+networks:
+  sql_network:
+    driver: bridge

@@ -6,6 +6,8 @@ using ModuloCliente.BW.Interfaces.BW;
 
 namespace ModuloCliente.API.Controladores
 {
+    [ApiController]
+    [Route("/[controller]")]
     public class SolicitudController : ControllerBase
     {
 
@@ -20,7 +22,8 @@ namespace ModuloCliente.API.Controladores
         public async Task<IActionResult> RealizarSolicitud( [FromBody] SolicitudRegistroDTO solicitudRegistroDTO)
         {
             Solicitud solicitud = SolicitudDTOMapper.ConvertirSolicitudRegistroDTOASolicitud(solicitudRegistroDTO);
-            return Created("",  this.gestionarSolicitudBW.RealizarSolicitud(solicitud));
+            var retorno = await this.gestionarSolicitudBW.RealizarSolicitud(solicitud);
+            return Created("",  retorno);
         }
 
 
