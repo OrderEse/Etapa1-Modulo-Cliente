@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ModuloCliente.BC.Constantes;
+using ModuloCliente.BC.Enumerados;
 
 namespace ModuloCliente.BC.Modelos
 {
@@ -19,6 +19,8 @@ namespace ModuloCliente.BC.Modelos
         public int RestauranteId { get; set; }
 
         public EstadoMesa Estado { get; set; }
+
+        public bool Activa { get; set; }
 
 
     }

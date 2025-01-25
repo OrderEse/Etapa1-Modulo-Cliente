@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ModuloCliente.BC.Constantes;
+using ModuloCliente.BC.Enumerados;
 
 namespace ModuloCliente.DA.Entidades
 {
@@ -25,6 +25,8 @@ namespace ModuloCliente.DA.Entidades
         public int RestauranteId { get; set; } 
 
         public EstadoMesa Estado { get; set; }
+
+        public bool Activa { get; set; } 
 
         public virtual ICollection<SolicitudDA> Solicitudes { get; set; }
     }

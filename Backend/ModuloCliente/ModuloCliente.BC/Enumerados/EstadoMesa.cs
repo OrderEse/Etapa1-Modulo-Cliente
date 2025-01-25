@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModuloCliente.BC.Constantes
+namespace ModuloCliente.BC.Enumerados
 {
     public enum EstadoMesa
     {

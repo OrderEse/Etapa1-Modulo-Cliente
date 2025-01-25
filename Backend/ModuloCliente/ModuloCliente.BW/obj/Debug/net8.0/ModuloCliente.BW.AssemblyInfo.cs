@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModuloCliente.BW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2d513e44bd7988148bda70c0f294d1591d4acc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ee7ae1fff134c5b952f8405f638582949954702")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModuloCliente.BW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModuloCliente.BW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
