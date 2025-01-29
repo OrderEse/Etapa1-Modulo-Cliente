@@ -16,7 +16,7 @@ namespace ModuloCliente.DA.Entidades
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public string Numero { get; set; }
+        public int Numero { get; set; }
 
         public string Nombre { get; set; }
 
@@ -26,7 +26,9 @@ namespace ModuloCliente.DA.Entidades
 
         public EstadoMesa Estado { get; set; }
 
-        public bool Activa { get; set; } 
+        public bool Activa { get; set; }
+
+        public bool Eliminado { get; set; }
 
         public virtual ICollection<SolicitudDA> Solicitudes { get; set; }
     }

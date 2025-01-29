@@ -12,7 +12,7 @@ namespace ModuloCliente.BC.Modelos
 
         public int Id { get; set; }
 
-        public string Numero { get; set; }
+        public int Numero { get; set; }
 
         public string Nombre { get; set; }
 
@@ -22,6 +22,6 @@ namespace ModuloCliente.BC.Modelos
 
         public bool Activa { get; set; }
 
-
+        public bool Eliminado { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ModuloCliente.DA.Contexto;
 
@@ -10,9 +11,11 @@ using ModuloCliente.DA.Contexto;
 namespace ModuloCliente.DA.Migrations
 {
     [DbContext(typeof(ModuloClienteContexto))]
-    partial class ModuloClienteContextoModelSnapshot : ModelSnapshot
+    [Migration("20250125211944_V3__Adicion-Atributo-Mesa-Eliminado")]
+    partial class V3__AdicionAtributoMesaEliminado
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -42,8 +45,9 @@ namespace ModuloCliente.DA.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Numero")
-                        .HasColumnType("int");
+                    b.Property<string>("Numero")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("RestauranteId")
                         .HasColumnType("int");

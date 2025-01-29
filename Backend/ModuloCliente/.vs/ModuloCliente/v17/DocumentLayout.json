@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente.bc\\modelos\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|solutionrelative:modulocliente.bc\\modelos\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente.da\\migrations\\20250129002403_v4__cambio-tipo-numero-mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|solutionrelative:modulocliente.da\\migrations\\20250129002403_v4__cambio-tipo-numero-mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente.da\\entidades\\mesada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|solutionrelative:modulocliente.da\\entidades\\mesada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente.bc\\modelos\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|solutionrelative:modulocliente.bc\\modelos\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|solutionrelative:modulocliente\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|solutionrelative:modulocliente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|solutionrelative:modulocliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{338B6F82-42EC-4A8B-B118-5C9B7054D5F2}|ModuloCliente.DA\\ModuloCliente.DA.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente.da\\entidades\\restauranteda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|solutionrelative:modulocliente\\mappers\\solicituddtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D48142A5-04FD-4587-88F2-78EAD9AB0FD0}|ModuloCliente\\ModuloCliente.API.csproj|solutionrelative:modulocliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|c:\\users\\danie\\desktop\\etapa1-modulo-cliente\\backend\\modulocliente\\modulocliente.bc\\modelos\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A428A125-F950-4356-9040-380CA56CB8D7}|ModuloCliente.BC\\ModuloCliente.BC.csproj|solutionrelative:modulocliente.bc\\modelos\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,15 +58,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "20250129002403_V4__Cambio-Tipo-Numero-Mesa.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.DA\\Migrations\\20250129002403_V4__Cambio-Tipo-Numero-Mesa.cs",
+              "RelativeDocumentMoniker": "ModuloCliente.DA\\Migrations\\20250129002403_V4__Cambio-Tipo-Numero-Mesa.cs",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.DA\\Migrations\\20250129002403_V4__Cambio-Tipo-Numero-Mesa.cs",
+              "RelativeToolTip": "ModuloCliente.DA\\Migrations\\20250129002403_V4__Cambio-Tipo-Numero-Mesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T00:24:03.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente\\docker-compose.yml",
+              "RelativeDocumentMoniker": "ModuloCliente\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente\\docker-compose.yml",
+              "RelativeToolTip": "ModuloCliente\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-26T19:32:36.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente\\appsettings.json",
+              "RelativeDocumentMoniker": "ModuloCliente\\appsettings.json",
+              "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente\\appsettings.json",
+              "RelativeToolTip": "ModuloCliente\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-25T21:26:59.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RestauranteDA.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.DA\\Entidades\\RestauranteDA.cs",
               "RelativeDocumentMoniker": "ModuloCliente.DA\\Entidades\\RestauranteDA.cs",
@@ -62,8 +115,7 @@
               "RelativeToolTip": "ModuloCliente.DA\\Entidades\\RestauranteDA.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T03:02:23.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T03:02:23.854Z"
             },
             {
               "$type": "Document",
@@ -73,14 +125,13 @@
               "RelativeDocumentMoniker": "ModuloCliente.DA\\Entidades\\MesaDA.cs",
               "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.DA\\Entidades\\MesaDA.cs",
               "RelativeToolTip": "ModuloCliente.DA\\Entidades\\MesaDA.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T03:01:31.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T03:01:31.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.BC\\Modelos\\Menu.cs",
               "RelativeDocumentMoniker": "ModuloCliente.BC\\Modelos\\Menu.cs",
@@ -92,20 +143,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Mesa.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.BC\\Modelos\\Mesa.cs",
               "RelativeDocumentMoniker": "ModuloCliente.BC\\Modelos\\Mesa.cs",
               "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.BC\\Modelos\\Mesa.cs",
               "RelativeToolTip": "ModuloCliente.BC\\Modelos\\Mesa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T02:56:34.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T02:56:34.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "EstadoMesa.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.BC\\Enumerados\\EstadoMesa.cs",
               "RelativeDocumentMoniker": "ModuloCliente.BC\\Enumerados\\EstadoMesa.cs",
@@ -117,19 +167,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente\\Program.cs",
               "RelativeDocumentMoniker": "ModuloCliente\\Program.cs",
               "ToolTip": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente\\Program.cs",
               "RelativeToolTip": "ModuloCliente\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T04:06:17.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "SolicitudDTOMapper.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente\\Mappers\\SolicitudDTOMapper.cs",
               "RelativeDocumentMoniker": "ModuloCliente\\Mappers\\SolicitudDTOMapper.cs",
@@ -141,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "SolicitudController.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente\\Controllers\\SolicitudController.cs",
               "RelativeDocumentMoniker": "ModuloCliente\\Controllers\\SolicitudController.cs",
@@ -153,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Solicitud.cs",
               "DocumentMoniker": "C:\\Users\\danie\\Desktop\\Etapa1-Modulo-Cliente\\Backend\\ModuloCliente\\ModuloCliente.BC\\Modelos\\Solicitud.cs",
               "RelativeDocumentMoniker": "ModuloCliente.BC\\Modelos\\Solicitud.cs",

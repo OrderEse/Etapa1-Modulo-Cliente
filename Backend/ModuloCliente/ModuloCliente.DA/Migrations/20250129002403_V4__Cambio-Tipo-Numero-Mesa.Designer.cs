@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ModuloCliente.DA.Contexto;
 
@@ -10,9 +11,11 @@ using ModuloCliente.DA.Contexto;
 namespace ModuloCliente.DA.Migrations
 {
     [DbContext(typeof(ModuloClienteContexto))]
-    partial class ModuloClienteContextoModelSnapshot : ModelSnapshot
+    [Migration("20250129002403_V4__Cambio-Tipo-Numero-Mesa")]
+    partial class V4__CambioTipoNumeroMesa
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

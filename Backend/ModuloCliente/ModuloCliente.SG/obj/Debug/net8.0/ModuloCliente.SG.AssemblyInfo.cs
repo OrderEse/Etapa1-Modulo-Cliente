@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModuloCliente.SG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ee7ae1fff134c5b952f8405f638582949954702")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df4c99ec0981555f1c6e93adb61f388db774fcbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModuloCliente.SG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModuloCliente.SG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
