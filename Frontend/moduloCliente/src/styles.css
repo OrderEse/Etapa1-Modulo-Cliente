@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-image: url('/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 
+
+:root {
+    --color-primario: rgb(255, 255, 255);
+    --color-secundario: #171716;
+    --color-terciario: #FF914B;
+}

@@ -1,7 +1,0 @@
-{
-  "name": "moduloCliente",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular-standalone"
-}
