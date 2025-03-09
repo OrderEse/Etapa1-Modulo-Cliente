@@ -48,7 +48,7 @@ header img {
   align-items: center;
 }
 
-#seccionBotones button {
+/* #seccionBotones button {
   padding: 0.7em;
   background-color: var(--color-primario);
   color: var(--color-secundario);
@@ -61,7 +61,7 @@ header img {
 
 #seccionBotones button:hover {
   color: var(--color-terciario);
-}
+} */
 
 footer {
   display: flex;

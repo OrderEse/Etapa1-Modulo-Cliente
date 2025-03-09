@@ -1,1 +1,25 @@
-<Header-Secundario-Componente titulo="MENÚ"></Header-Secundario-Componente>
+<div>
+  <Header-Secundario-Componente titulo="MENÚ"></Header-Secundario-Componente>
+
+  <main>
+    <img src="menu.png" alt="Menú" draggable="false" (click)="abrirImagen()" />
+
+    <section>
+      <button>Llamar Mesero</button>
+      <button>Hacer Pedido</button>
+    </section>
+  </main>
+
+  <div
+    class="modal-overlay"
+    *ngIf="mostrarImagenGrande"
+    (click)="cerrarImagen()"
+  >
+    <div class="modal-contenido">
+      <span class="cerrar-btn" (click)="cerrarImagen()">&times;</span>
+      <img src="menu.png" alt="Menú ampliado" class="imagen-grande" />
+    </div>
+  </div>
+
+  <Footer-Componente></Footer-Componente>
+</div>
