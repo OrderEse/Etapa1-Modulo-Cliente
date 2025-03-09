@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+  color: transparent;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7em;
+  background-color: var(--color-cuaternario);
+  color: var(--color-primario);
+}

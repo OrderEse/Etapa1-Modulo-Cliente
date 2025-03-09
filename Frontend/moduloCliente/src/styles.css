@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    user-select: none;
 }
+
 
 html,
 body {
@@ -20,4 +23,5 @@ body {
     --color-primario: rgb(255, 255, 255);
     --color-secundario: #171716;
     --color-terciario: #FF914B;
+    --color-cuaternario: rgba(255, 255, 255, 0.051);
 }

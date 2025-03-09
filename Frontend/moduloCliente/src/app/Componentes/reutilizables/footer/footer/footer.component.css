@@ -1,0 +1,37 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.7em;
+  color: var(--color-terciario);
+  text-align: center;
+  gap: 1em;
+}
+
+#redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+#redes img {
+  width: 2em;
+  height: 2em;
+}
+
+@media (min-height: 1024px) and (max-width: 1200px) {
+ 
+  #redes {
+    gap: 0 2em;
+  }
+
+  #redes img{
+    width: 5em;
+    height: 5em;
+  }
+
+  footer h3 {
+    font-size: 3em;
+  }
+}

@@ -1,0 +1,160 @@
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.7em;
+  background-color: var(--color-cuaternario);
+}
+
+header img {
+  width: 3em;
+  height: 3em;
+}
+
+#logo {
+  width: 4.7em;
+}
+
+#seccionPresentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+#seccionPresentacion img {
+  width: 50%;
+  height: 80%;
+}
+
+#seccionPresentacion h1 {
+  color: var(--color-primario);
+  font-style: none;
+}
+
+#seccionBotones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+}
+
+#seccionBotones button {
+  padding: 0.7em;
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
+  border-radius: 1.7em;
+  width: 20em;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+}
+
+#seccionBotones button:hover {
+  color: var(--color-terciario);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.7em;
+  color: var(--color-terciario);
+  text-align: center;
+  gap: 1em;
+}
+
+#redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+#redes img {
+  width: 2em;
+  height: 2em;
+}
+
+/*Teléfonos*/
+@media (max-width: 480px) {
+ 
+  #seccionPresentacion {
+    margin: 0;
+    padding: 0;
+  }
+
+  #seccionPresentacion img {
+    width: 100%;
+  }
+
+  header img {
+    width: 2em;
+    height: 2em;
+  }
+
+  #seccionBotones button {
+    width: 70%;
+  }
+
+  #logo {
+    width: 3.5em;
+  }
+}
+
+
+@media (min-height: 840px) and (max-width: 480px) {
+ 
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em 0;
+  }
+
+  #seccionBotones {
+    font-size: 1.4em;
+  }
+
+  header img {
+    width: 2.5em;
+    height: 2.5em;
+  }
+}
+
+@media (min-height: 1024px) and (max-width: 1200px) {
+ 
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 10em 0;
+  }
+
+  #seccionPresentacion img {
+    width: 80%;
+  }
+
+  #seccionBotones {
+    font-size: 3em;
+  }
+
+  header img {
+    width: 5em;
+    height: 7em;
+  }
+
+  #seccionPresentacion h1 {
+    font-size: 5em;
+  }
+
+}
+
+
