@@ -13,3 +13,43 @@ header {
   background-color: var(--color-cuaternario);
   color: var(--color-primario);
 }
+
+/*Teléfonos*/
+@media (max-width: 1200px) {
+ 
+  #logo {
+    width: 5em;
+    height: 4em;
+  }
+
+  #regreso {
+    width: 4em;
+    height: 4em;
+  }
+}
+
+@media (max-width: 840px) {
+
+  #logo {
+    width: 4em;
+    height: 3em;
+  }
+
+  #regreso {
+    width: 3em;
+    height: 3em;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #logo {
+    width: 3em;
+    height: 2em;
+  }
+
+  #regreso {
+    width: 40px;
+    height: 40px;
+  }
+}

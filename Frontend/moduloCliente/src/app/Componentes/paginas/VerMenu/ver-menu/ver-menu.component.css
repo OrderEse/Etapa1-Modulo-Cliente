@@ -19,8 +19,8 @@ section {
 }
 
 img {
-    width: 30em;
-    height: 32em;
+    width: 60vw;
+    height: auto;
     cursor: pointer;
 }
 
@@ -48,12 +48,13 @@ img {
     height: auto;
     max-width: 90vw;
     max-height: 90vh;
+    cursor: default;
     object-fit: contain;
 }
 
 .cerrar-btn {
     position: absolute;
-    top: -40px;
+    top: -30px;
     right: -40px;
     color: white;
     font-size: 30px;
@@ -61,12 +62,64 @@ img {
     cursor: pointer;
 }
 
-
 .modal-overlay {
     animation: fadeIn 0.3s;
+}
+
+#seccionBotones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
 }
 
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+/*Teléfonos*/
+@media (max-width: 1200px) {
+
+    img {
+        width: 80vw;
+    }
+
+    .cerrar-btn {
+        top: -30px;
+        right: -30px;
+    }
+}
+
+@media (max-width: 840px) {
+
+    img {
+        width: 80vw;
+    }
+
+    .cerrar-btn {
+        top: -40px;
+        right: -20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    img {
+        width: 100vw;
+    }
+
+    .cerrar-btn {
+        top: -40px;
+        right: -10px;
+    }
+
+    #seccionBotones button {
+        width: 70vw;
+    }
+
+    #seccionBotones {
+        font-size: 1.4em;
+    }
 }
