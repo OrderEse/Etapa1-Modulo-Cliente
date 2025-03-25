@@ -13,6 +13,7 @@
   <div
     class="modal-overlay"
     *ngIf="mostrarImagenGrande"
+    (click)="cerrarImagen()"
   >
     <div class="modal-contenido">
       <span class="cerrar-btn" (click)="cerrarImagen()">&times;</span>

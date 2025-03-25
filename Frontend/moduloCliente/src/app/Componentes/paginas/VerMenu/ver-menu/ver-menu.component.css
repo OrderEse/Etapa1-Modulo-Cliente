@@ -48,7 +48,7 @@ img {
     height: auto;
     max-width: 90vw;
     max-height: 90vh;
-    cursor: default;
+    cursor: pointer;
     object-fit: contain;
 }
 
