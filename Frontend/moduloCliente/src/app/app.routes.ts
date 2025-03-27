@@ -21,5 +21,14 @@ export const routes: Routes = [
     loadComponent: () => import('./Componentes/paginas/VerMenu/ver-menu/ver-menu.component').then(
       (m) => m.VerMenuComponent
     ),
+  },
+
+  {
+    path: 'llamar-mesero',
+    loadComponent: () =>
+      import('./Componentes/paginas/LlamarMesero/llamar-mesero/llamar-mesero.component').then(
+        (m) => m.LlamarMeseroComponent
+      ),
   }
+  
 ];

@@ -1,0 +1,43 @@
+<div>
+    <Header-Secundario-Componente titulo="LLAMAR MESERO"></Header-Secundario-Componente>
+  
+    <!-- Vista normal -->
+    <main *ngIf="!cerrar">
+      <img src="/logo-la-roca.png" alt="Logo" style="width: 180px; margin: 0 auto;" />
+  
+      <section>
+        <p>Tocá la campana para solicitar asistencia a la mesa.</p>
+        <p>¡Nuestro personal estará feliz de asistirte!</p>
+      </section>
+  
+      <div class="circle-wrapper">
+        <img src="/bell-icon.png" alt="Campana" draggable="false" />
+      </div>
+  
+      <section>
+        <button>Hacer Pedido</button>
+        <button (click)="mostrarConfirmacion()">Cerrar Cuenta</button>
+      </section>
+    </main>
+  
+    <!-- Vista de confirmación -->
+    <main *ngIf="cerrar">
+      <img src="/logo-la-roca.png" alt="Logo" style="width: 180px; margin: 0 auto;" />
+  
+      <section>
+        <p style="color: #00c853; font-size: 1.5rem; font-weight: bold;">¡LISTO!</p>
+        <p>El mesero llegará pronto</p>
+      </section>
+  
+      <div class="circle-wrapper success">
+        <img src="/bell-icon.png" alt="Campana" draggable="false" />
+      </div>
+  
+      <section>
+        <button (click)="volverInicio()">Volver al Inicio</button>
+      </section>
+    </main>
+  
+    <Footer-Componente></Footer-Componente>
+  </div>
+  
