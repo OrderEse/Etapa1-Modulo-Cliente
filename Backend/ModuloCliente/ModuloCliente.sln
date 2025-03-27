@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloCliente.DA", "ModuloC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloCliente.SG", "ModuloCliente.SG\ModuloCliente.SG.csproj", "{DADD9641-8E95-454A-A096-48CC21BCEA95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloCliente.Pruebas", "ModuloCliente.Pruebas\ModuloCliente.Pruebas.csproj", "{619ECFB4-C618-4AB7-AE2A-9297E29A96D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DADD9641-8E95-454A-A096-48CC21BCEA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DADD9641-8E95-454A-A096-48CC21BCEA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DADD9641-8E95-454A-A096-48CC21BCEA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619ECFB4-C618-4AB7-AE2A-9297E29A96D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619ECFB4-C618-4AB7-AE2A-9297E29A96D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619ECFB4-C618-4AB7-AE2A-9297E29A96D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619ECFB4-C618-4AB7-AE2A-9297E29A96D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
