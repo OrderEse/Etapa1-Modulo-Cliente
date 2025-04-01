@@ -29,6 +29,14 @@ export const routes: Routes = [
       import('./Componentes/paginas/LlamarMesero/llamar-mesero/llamar-mesero.component').then(
         (m) => m.LlamarMeseroComponent
       ),
+  },
+  {
+    path: 'hacer-pedido',
+    loadComponent: () =>
+      import('./Componentes/paginas/HacerPedido/hacer-pedido/hacer-pedido.component').then(
+        (m) => m.HacerPedidoComponent
+      )
   }
+  
   
 ];
