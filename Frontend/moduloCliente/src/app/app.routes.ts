@@ -29,6 +29,15 @@ export const routes: Routes = [
       import('./Componentes/paginas/LlamarMesero/llamar-mesero/llamar-mesero.component').then(
         (m) => m.LlamarMeseroComponent
       ),
-  }
+  },
   
+
+  {
+    path: 'cerrar-cuenta',
+    loadComponent: () =>
+      import('./Componentes/paginas/CerrarCuenta/cerrar-cuenta/cerrar-cuenta.component').then(
+        (m) => m.CerrarCuentaComponent
+      ),
+  }
+
 ];
