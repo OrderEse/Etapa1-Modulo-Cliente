@@ -31,7 +31,6 @@ export const routes: Routes = [
       ),
   },
   
-
   {
     path: 'cerrar-cuenta',
     loadComponent: () =>
@@ -45,6 +44,13 @@ export const routes: Routes = [
     loadComponent: () => import('./Componentes/paginas/CalificarServicio/calificar-servicio/calificar-servicio.component').then(
       (m) => m.CalificarServicioComponent
     ),
-  }
+  },
+
+  {
+    path: 'finalizar-interaccion',
+    loadComponent: () => import('./Componentes/paginas/MuchasGracias/muchas-gracias/muchas-gracias.component').then(
+      (m) => m.MuchasGraciasComponent
+    ),
+  },
 
 ];
