@@ -38,6 +38,13 @@ export const routes: Routes = [
       import('./Componentes/paginas/CerrarCuenta/cerrar-cuenta/cerrar-cuenta.component').then(
         (m) => m.CerrarCuentaComponent
       ),
+  },
+
+  {
+    path: 'calificar-servicio',
+    loadComponent: () => import('./Componentes/paginas/CalificarServicio/calificar-servicio/calificar-servicio.component').then(
+      (m) => m.CalificarServicioComponent
+    ),
   }
 
 ];
