@@ -1,0 +1,135 @@
+figure {
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 200px;
+  width: 80%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+#seccionPedidos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.seccionPedidosInput {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.seccionPedidosInput input {
+  flex: 1 1 60%;
+  min-width: 200px;
+  padding: 0.5rem;
+}
+
+.select-container {
+  position: relative;
+  flex: 1 1 30%;
+  min-width: 80px;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 0.5rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.select-arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.agregar-lineas {
+  flex-direction: row;
+}
+
+.agregar-lineas button {
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  background-color: var(--color-primario);
+  border-radius: 0;
+  border: var(--color-quintario) 2px solid;
+  color: var(--color-quintario);
+  font-size: 1rem;
+}
+
+.agregar-lineas p {
+  margin: 0;
+  color: var(--color-quintario);
+}
+
+#seccionBotones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#seccionBotones button {
+  max-width: 300px;
+  padding: 0.8rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-principal {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-secundario {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.instruccion,
+.subtitulo {
+    color: var(--color-primario);
+}
+
+#seccionInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .seccionPedidosInput {
+    flex-direction: column;
+  }
+
+  .select-container,
+  .seccionPedidosInput input {
+    width: 100%;
+  }
+
+  .agregar-lineas {
+    flex-direction: column;
+  }
+}
