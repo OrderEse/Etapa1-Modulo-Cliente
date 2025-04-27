@@ -1,46 +1,48 @@
-<div class="container">
+<div>
   <Header-Secundario-Componente titulo="HACER PEDIDO"></Header-Secundario-Componente>
 
   <figure class="logo-container">
     <img src="/logo-la-roca.png" alt="Logo del restaurante" class="logo" />
   </figure>
 
-  <section id="seccionPedidos">
-    <p class="instruccion">Escribí tu pedido.</p>
+  <main>
+    <p id="instruccion">Escribí tu pedido.</p>
 
     <section id="seccionInfo">
-      <p class="subtitulo">Platillos y bebidas:</p>
-      <p class="subtitulo">Cantidad:</p>
+      <p>Platillos y bebidas:</p>
+      <p>Cantidad</p>
+    </section>
+   
+    @for (pedido of pedidos; track $index) {
+
+      <section class="seccionPedidoSeleccion">
+
+        <input type="text" placeholder="Ingresá el nombre del platillo o bebida">
+        <select >
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+      </section>
+
+    }
+
+    <section id="seccionAgregarLinea">
+      <button (click)="agregarLinea()">+</button>
+      <p>Agregar Línea</p>
     </section>
 
-    <ng-container *ngFor="let pedido of pedidos; let i = index">
-      <div class="seccionPedidosInput">
-        <input type="text" [(ngModel)]="pedido.nombre" placeholder="Ingresá el nombre del platillo o bebida" name="platillo{{i}}" />
-        <div class="select-container">
-          <select [(ngModel)]="pedido.cantidad" name="cantidad{{i}}">
-            <option *ngFor="let cantidad of [1,2,3,4,5]" [value]="cantidad">{{ cantidad }}</option>
-          </select>
-          <div class="select-arrow">▼</div>
-        </div>
-      </div>
-    </ng-container>
-
-    <div class="seccionPedidosInput agregar-lineas">
-      <button type="button" class="btn-agregar" (click)="agregarLinea()">+</button>
-      <p>Agregar líneas</p>
-    </div>
 
     <section id="seccionBotones">
       <button class="btn-principal" (click)="hacerPedido()">Hacer Pedido</button>
       <button class="btn-secundario" (click)="abrirModal()">Ver Menú</button>
     </section>
-  </section>
+  </main>
 
-  <div
-    class="modal-overlay"
-    *ngIf="mostrarImagenGrande"
-    (click)="cerrarModal()"
-  >
+  <div class="modal-overlay" *ngIf="mostrarImagenGrande" (click)="cerrarModal()">
     <div class="modal-contenido">
       <span class="cerrar-btn" (click)="cerrarModal()">&times;</span>
       <img src="menu.png" alt="Menú ampliado" class="imagen-grande" />
