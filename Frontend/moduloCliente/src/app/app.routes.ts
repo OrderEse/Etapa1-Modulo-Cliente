@@ -30,6 +30,29 @@ export const routes: Routes = [
         (m) => m.LlamarMeseroComponent
       ),
   },
+  
+  {
+    path: 'cerrar-cuenta',
+    loadComponent: () =>
+      import('./Componentes/paginas/CerrarCuenta/cerrar-cuenta/cerrar-cuenta.component').then(
+        (m) => m.CerrarCuentaComponent
+      ),
+  },
+
+  {
+    path: 'calificar-servicio',
+    loadComponent: () => import('./Componentes/paginas/CalificarServicio/calificar-servicio/calificar-servicio.component').then(
+      (m) => m.CalificarServicioComponent
+    ),
+  },
+
+  {
+    path: 'finalizar-interaccion',
+    loadComponent: () => import('./Componentes/paginas/MuchasGracias/muchas-gracias/muchas-gracias.component').then(
+      (m) => m.MuchasGraciasComponent
+    ),
+  },
+
   {
     path: 'hacer-pedido',
     loadComponent: () =>
