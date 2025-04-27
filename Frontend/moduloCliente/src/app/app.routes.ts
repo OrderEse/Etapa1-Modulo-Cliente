@@ -53,4 +53,13 @@ export const routes: Routes = [
     ),
   },
 
+  {
+    path: 'hacer-pedido',
+    loadComponent: () =>
+      import('./Componentes/paginas/HacerPedido/hacer-pedido/hacer-pedido.component').then(
+        (m) => m.HacerPedidoComponent
+      )
+  }
+  
+  
 ];

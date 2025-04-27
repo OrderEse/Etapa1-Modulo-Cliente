@@ -2,7 +2,8 @@
   --color-primario: rgb(255, 255, 255);
   --color-secundario: #171716;
   --color-terciario: #ff914b;
-  --color-cuaternario: rgba(255, 255, 255, 0.051);
+  --color-cuaternario: rgb(255, 255, 255, 0.051);
+  --color-quintario: rgb(112,112,112);
 }
 
 * {
