@@ -59,6 +59,13 @@ export const routes: Routes = [
       import('./Componentes/paginas/HacerPedido/hacer-pedido/hacer-pedido.component').then(
         (m) => m.HacerPedidoComponent
       )
+  },
+  {
+    path: 'pedido-realizado',
+    loadComponent: () =>
+      import('./Componentes/paginas/PedidoRealizado/pedido-realizado/pedido-realizado.component').then(
+        (m) => m.PedidoRealizadoComponent
+      )
   }
   
   

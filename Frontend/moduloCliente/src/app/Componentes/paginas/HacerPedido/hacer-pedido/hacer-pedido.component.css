@@ -1,122 +1,85 @@
+
+
 figure {
   text-align: center;
 }
 
-.logo-container img {
-  max-width: 200px;
-  width: 80%;
-  height: auto;
-  margin: 1rem auto;
+figure img {
+  width: 10rem;
+  height: 10rem;
 }
 
-#seccionPedidos {
+main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  width: 100%;
-  padding: 1rem;
-}
-
-.seccionPedidosInput {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-  width: 100%;
-  max-width: 600px;
+  gap: 1em;
 }
 
-.seccionPedidosInput input {
-  flex: 1 1 60%;
-  min-width: 200px;
-  padding: 0.5rem;
+
+p {
+  color: var(--color-primario);
 }
 
-.select-container {
-  position: relative;
-  flex: 1 1 30%;
-  min-width: 80px;
-}
-
-.select-container select {
-  width: 100%;
-  padding: 0.5rem;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.select-arrow {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
-}
-
-.agregar-lineas {
+#seccionInfo{
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
 }
 
-.agregar-lineas button {
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.2rem;
-  background-color: var(--color-primario);
-  border-radius: 0;
-  border: var(--color-quintario) 2px solid;
-  color: var(--color-quintario);
-  font-size: 1rem;
+.seccionPedidoSeleccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 80%;
 }
 
-.agregar-lineas p {
+.seccionPedidoSeleccion input{
+  width: 90%;
+  height: 2em;
+  border: 2.3px solid var(--color-quintario);
+}
+
+.seccionPedidoSeleccion select{
+  width: 10%;
+  height: 2em;
+  border-radius: 5px;
+  border: 2.3px solid var(--color-quintario);
+}
+
+
+#seccionAgregarLinea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .7em;
+}
+
+#seccionAgregarLinea button {
+  padding: 0;
   margin: 0;
+  border-radius: 0;
+  width: 2.2em;
+  height: 2.2em;
+  border: 2.3px solid var(--color-quintario);
+  font-size: 1em;
   color: var(--color-quintario);
 }
 
 #seccionBotones {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 1em;
 }
 
-#seccionBotones button {
-  max-width: 300px;
-  padding: 0.8rem;
-  border: none;
-  font-size: 1rem;
-}
-
-.btn-principal {
-  background-color: white;
-  color: black;
-}
-
-.btn-secundario {
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-}
-
-.instruccion,
-.subtitulo {
-    color: var(--color-primario);
-}
-
-#seccionInfo{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  text-align: center;
-  width: 100%;
-}
 
 .modal-overlay {
   position: fixed;
@@ -159,19 +122,3 @@ figure {
 .modal-overlay {
   animation: fadeIn 0.3s;
 }
-
-/* Responsive tweaks */
-/* @media (max-width: 600px) {
-  .seccionPedidosInput {
-    flex-direction: column;
-  }
-
-  .select-container,
-  .seccionPedidosInput input {
-    width: 100%;
-  }
-
-  .agregar-lineas {
-    flex-direction: column;
-  }
-} */
