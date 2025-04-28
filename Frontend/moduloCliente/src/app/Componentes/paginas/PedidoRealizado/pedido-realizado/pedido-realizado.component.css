@@ -1,0 +1,28 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.7em;
+}
+
+
+#seccionInfo h1 {
+    font-size: 1.7em;
+    color: var(--color-sextario);
+}
+
+#seccionInfo p{
+    color:var(--color-primario);
+}
+
+.logo-container img {
+    width: 8em;
+    height: 8em;
+}
+
+.comida-container img {
+    width: 18em;
+    height: 18em;
+}

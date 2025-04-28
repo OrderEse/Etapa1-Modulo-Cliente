@@ -1,8 +1,4 @@
-div {
-  display: flex;
-  flex-direction: column;
-  gap: 3em;
-}
+
 
 figure {
   text-align: center;
@@ -82,4 +78,47 @@ p {
   justify-content: center;
   align-items: center;
   gap: 1em;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-contenido {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.imagen-grande {
+  width: auto;
+  height: auto;
+  max-width: 90vw;
+  max-height: 90vh;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.cerrar-btn {
+  position: absolute;
+  top: -30px;
+  right: -40px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  animation: fadeIn 0.3s;
 }

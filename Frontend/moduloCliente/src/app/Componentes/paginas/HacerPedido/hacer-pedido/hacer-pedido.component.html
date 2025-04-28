@@ -14,20 +14,16 @@
     </section>
    
     @for (pedido of pedidos; track $index) {
-
       <section class="seccionPedidoSeleccion">
-
-        <input type="text" placeholder="Ingresá el nombre del platillo o bebida">
-        <select >
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
+        <input type="text" [(ngModel)]="pedido.nombre" placeholder="Ingresá el nombre del platillo o bebida" />
+        <select [(ngModel)]="pedido.cantidad">
+          <option [value]="1">1</option>
+          <option [value]="2">2</option>
+          <option [value]="3">3</option>
+          <option [value]="4">4</option>
+          <option [value]="5">5</option>
         </select>
-
       </section>
-
     }
 
     <section id="seccionAgregarLinea">
