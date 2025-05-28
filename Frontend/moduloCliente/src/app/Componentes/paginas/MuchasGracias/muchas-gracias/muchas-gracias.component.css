@@ -1,0 +1,114 @@
+/* General */
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem 0;
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+    align-items: center;
+}
+
+/* Contenido */
+p {
+    width: 304px;
+    height: 132px;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 1rem;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 300;
+    margin: 1.8rem;
+    color: var(--color-terciario);
+}
+
+.logo img {
+    width: 194px;
+    height: auto;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+/* Botones */
+#seccionBotones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.8em;
+    color: var(--color-terciario);
+    text-align: center;
+    gap: 1em;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+#redes img {
+    width: 2em;
+    height: 2em;
+}
+
+/*Teléfonos*/
+@media (max-width: 1200px) {}
+
+@media (min-height: 1024px) and (max-width: 1200px) {
+
+    #redes {
+        gap: 0 2em;
+    }
+
+    #redes img {
+        width: 5em;
+        height: 5em;
+    }
+
+    footer h3 {
+        font-size: 3em;
+    }
+
+}
+
+@media (max-width: 840px) {}
+
+@media (max-width: 480px) {
+
+    #seccionBotones button {
+        width: 70vw;
+    }
+
+    #seccionBotones {
+        font-size: 1.4em;
+    }
+}
