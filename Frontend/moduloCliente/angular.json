@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/Etapa1-Modulo-Cliente/",
             "outputPath": "dist/modulo-cliente",
             "index": "src/index.html",
             "browser": "src/main.ts",
