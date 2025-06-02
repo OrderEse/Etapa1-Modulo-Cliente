@@ -6,7 +6,9 @@
     "start": "ng serve --no-hmr",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --configuration production --base-href \"https://OrderEse.github.io/Etapa1-Modulo-Cliente/\" && npx angular-cli-ghpages --dir=dist/modulo-cliente/browser"
+
   },
   "private": true,
   "dependencies": {
