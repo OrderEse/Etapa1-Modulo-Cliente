@@ -23,7 +23,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
-                "glob": "**/*",
+                "glob": "**/Etapa1-Modulo-Cliente/*",
                 "input": "public"
               }
             ],
